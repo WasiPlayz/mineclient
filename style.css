@@ -54,6 +54,12 @@ nav ul li a {
     outline: 0;
     cursor: pointer;
     margin-left: 40px;
+    transition: 0.3s;
+}
+
+#bt1:hover {
+    background: #162938;
+    color: white;
 }
 
 #bt2 {
@@ -65,6 +71,14 @@ nav ul li a {
     outline: 0;
     margin-top: 0px;
     cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+#bt2:hover {
+    background: #162938;
+    color: white;
 }
 
 .text {
@@ -115,6 +129,6 @@ nav ul li a {
 
 footer {
     text-align: center;
-    padding-top: 10%;
+    padding-top: 15%;
     
 }
